@@ -21,6 +21,11 @@ body{
 
 }
 
+.nombre-de-pagina:hover{
+    transform: scale(1.5,1);
+    transition: 2s;
+}
+
 .imagen-principal {
     width: 100%;
     margin: auto;
@@ -60,7 +65,30 @@ img{
     background-color: rgb(193, 11, 35);
 }
 
-.click-contacto{
+.mouse:hover{
+    transform: translate(10px,15px);
+    transition: 2s;
+}
+
+.teclado:hover{
+    transform: translate(10px,15px);
+    transition: 2s;
+}
+.joystick:hover{
+    transform: translate(10px,15px);
+    transition: 2s;
+}
+.monitor:hover{
+    transform: translate(10px,15px);
+    transition: 2s;
+}
+
+.camaras:hover{
+    transform: translate(10px,15px);
+    transition: 2s;
+}
+
+.contacto{
     display: flex;
     justify-content: center;
     border-style: outset;
@@ -70,7 +98,7 @@ img{
     background-color: rgb(29, 71, 29);
 }
 
-.click-contacto li a{  
+.contacto li a{  
     display: flex;
     color: black;
     background-color: rgb(29, 71, 29);
@@ -81,7 +109,7 @@ img{
     font-size: 30px;
 }
 
-.click-contacto li a:hover{
+.contacto li a:hover{
     transition: 1s;
     background-color: rgb(193, 11, 35);
 }
@@ -180,4 +208,4 @@ img{
 .img4{grid-area: img4;}
 .img5{grid-area: img5;}
 .img6{grid-area: img6;}
-.click-contacto{grid-area: info;}
+.contacto{grid-area: info;}
