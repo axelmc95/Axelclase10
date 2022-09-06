@@ -34,8 +34,8 @@ body{
 }
 
 img{
-    max-width: 400px;
-    max-height: 400px;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .secciones{
@@ -149,59 +149,3 @@ img{
     border-color: black;
 }
 
-/*GRID PARA PC*/
-
-.grid-container{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: auto auto auto auto auto auto;
-    grid-template-areas: 
-    "encabezado encabezado"
-    "imagen0 imagen0"
-    "listaDeMouse listaDeMouse"
-    "img1 img2"
-    "img3 img4"
-    "img5 img6"
-    "info info";
-}
-
-.encabezado{grid-area: encabezado;}
-.volver{grid-area: volver;}
-.imagen0{grid-area: imagen0;}
-.listaDeMouse{grid-area: listaDeMouse;}
-.img1{grid-area:img1; display: flex;}
-.img2{grid-area:img2; display: flex;}
-.img3{grid-area:img3; display: flex;}
-.img4{grid-area:img4; display: flex;}
-.img5{grid-area:img5; display: flex;}
-.img6{grid-area:img6; display: flex;}
-.info{grid-area:info;}
-
-/*GRID PARA CELULAR*/
-
-@media only screen and (max-width: 768px){
-    .grid-container{
-        background-color: blue;
-        display: grid;
-        grid-template-columns: 100%;
-        grid-template-rows: auto auto auto auto auto auto auto auto;
-        grid-template-areas: 
-        "encabezado" 
-        "img1" 
-        "img2"
-        "img3" 
-        "img4"
-        "img5" 
-        "img6"
-        "info";
-    }
-}
-
-.encabezado{grid-area: encabezado;}
-.img1{grid-area: img1;}
-.img2{grid-area: img2;}
-.img3{grid-area: img3;}
-.img4{grid-area: img4;}
-.img5{grid-area: img5;}
-.img6{grid-area: img6;}
-.contacto{grid-area: info;}
