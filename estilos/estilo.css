@@ -12,14 +12,12 @@ body{
 }
 .nombre-de-pagina {
     border-style:groove;
+    height: 200px;
     border-width: 10px;
     border-color: rgb(55, 50, 144);
-    font-stretch: extra-condensed;
-    text-align: center;
+    border-style: groove;
     font-size: 50px;
     background-color:rgb(129, 45, 137) ;
-    margin-top: 1;
-    margin-bottom: 1;
 
 }
 
