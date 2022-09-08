@@ -1,0 +1,95 @@
+.secciones {
+  display: flex;
+  justify-content: center;
+  border-style: outset;
+  border-color: black;
+  list-style: none;
+  flex-wrap: nowrap; }
+  .secciones li a {
+    color: black;
+    background-color: #373290;
+    text-decoration-line: none;
+    border-style: none;
+    border-style: outset;
+    border-color: black;
+    line-height: 75px;
+    font-size: 30px; }
+    .secciones li a:hover {
+      transition: 1s;
+      background-color: #812d89; }
+
+.mouse:hover {
+  transform: translate(2px, 3px);
+  transition: 1s; }
+
+.teclado:hover {
+  transform: translate(2px, 3px);
+  transition: 1s; }
+
+.joystick:hover {
+  transform: translate(2px, 3px);
+  transition: 1s; }
+
+.monitor:hover {
+  transform: translate(2px, 3px);
+  transition: 1s; }
+
+.camaras:hover {
+  transform: translate(2px, 3px);
+  transition: 1s; }
+
+* {
+  margin: 5px;
+  padding: 0;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black; }
+
+body {
+  background-image: linear-gradient(#812d89, #373290); }
+
+.nombre-de-pagina {
+  border-style: dotted;
+  border-color: #812d89;
+  border-width: 10px;
+  font-size: 50px;
+  background-color: #812d89; }
+  .nombre-de-pagina img {
+    height: 200px;
+    width: auto; }
+
+.contacto {
+  display: flex;
+  justify-content: center;
+  border-style: outset;
+  border-color: black;
+  list-style: none;
+  flex-wrap: nowrap; }
+  .contacto li a {
+    color: black;
+    background-color: #373290;
+    text-decoration-line: none;
+    border-style: none;
+    border-style: outset;
+    border-color: black;
+    line-height: 75px;
+    font-size: 30px; }
+    .contacto li a:hover {
+      transition: 1s;
+      background-color: #812d89; }
+
+.facebook:hover {
+  transform: translate(2px, 3px);
+  transition: 1s; }
+
+.instagram:hover {
+  transform: translate(2px, 3px);
+  transition: 1s; }
+
+.twitter:hover {
+  transform: translate(2px, 3px);
+  transition: 1s; }
+
+.tiktok:hover {
+  transform: translate(2px, 3px);
+  transition: 1s; }
