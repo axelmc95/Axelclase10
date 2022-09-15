@@ -1,8 +1,6 @@
 .secciones {
   display: flex;
   justify-content: center;
-  border-style: outset;
-  border-color: black;
   list-style: none;
   flex-wrap: nowrap; }
   .secciones li a {
@@ -52,7 +50,7 @@
   color: black; }
 
 body {
-  background-image: linear-gradient(#812d89, #373290); }
+  background-image: linear-gradient(#832d89, #481692); }
 
 .nombre-de-pagina {
   border-style: dotted;
@@ -64,11 +62,13 @@ body {
     height: 200px;
     width: auto; }
 
+.subtitulo {
+  text-decoration: underline;
+  font-size: 30px; }
+
 .contacto {
   display: flex;
   justify-content: center;
-  border-style: outset;
-  border-color: black;
   list-style: none;
   flex-wrap: nowrap; }
   .contacto li a {
@@ -99,6 +99,9 @@ body {
 .tiktok:hover {
   transform: translate(2px, 3px);
   transition: 1s; }
+
+.subtitulo {
+  font-size: 30px; }
 
 @media only screen and (max-width: 768px) {
   .contacto {

@@ -1,10 +1,13 @@
+$coloruno: rgb(55, 50, 144);
+$colordos: rgb(129, 45, 137);
+
 .opciones{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     .opc{
         border-style: dotted;
-        background-color:rgb(129, 45, 137);
+        background-color:$colordos;
         padding: 0px;
         margin: 10px;
         border-style: outset;
@@ -17,17 +20,17 @@
 }
 .nombre-de-pagina {
     border-style: dotted;
-    border-color: rgb(129, 45, 137);
+    border-color: $colordos;
     border-width: 10px;
     font-size: 50px;
-    background-color:rgb(129, 45, 137) ;
+    background-color:$colordos ;
     img{
         height: 350px;
         width: auto;
     }
     div a{
         color: black;
-        background-color: rgb(55, 50, 144);
+        background-color: $coloruno;
         text-decoration-line: none;
         border-style: none;
         border-style: outset;
@@ -36,7 +39,7 @@
         font-size: 30px;
         &:hover{
             transition: 1s;
-            background-color: rgb(129, 45, 137);
+            background-color: $colordos;
         }
     }
 }

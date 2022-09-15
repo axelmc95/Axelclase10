@@ -1,13 +1,15 @@
+$coloruno: rgb(55, 50, 144);
+$colordos: rgb(129, 45, 137);
+$subtsize: 30px;
+
 .contacto{
     display: flex;
     justify-content: center;
-    border-style: outset;
-    border-color: black;
     list-style: none;
     flex-wrap: nowrap;
         li a{
         color: black;
-        background-color: rgb(55, 50, 144);
+        background-color: $coloruno;
         text-decoration-line: none;
         border-style: none;
         border-style: outset;
@@ -16,7 +18,7 @@
         font-size: 30px;
         &:hover{
             transition: 1s;
-            background-color: rgb(129, 45, 137);
+            background-color: $colordos;
         }
     }
 }
@@ -37,6 +39,10 @@
 .tiktok:hover{
     transform: translate(2px,3px);
     transition: 1s;
+}
+
+.subtitulo{
+    font-size: $subtsize;
 }
 
 @media only screen and(max-width: 768px){

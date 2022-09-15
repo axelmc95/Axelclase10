@@ -1,3 +1,7 @@
+$coloruno: rgb(55, 50, 144);
+$colordos: rgb(129, 45, 137);
+$subtsize: 30px;
+
 .nombre-de-pagina {
     border-style: dotted;
     border-color: rgb(129, 45, 137);
@@ -8,4 +12,9 @@
         height: 200px;
         width: auto;
     }
+}
+
+.subtitulo{
+    text-decoration: underline;
+    font-size: $subtsize;
 }
