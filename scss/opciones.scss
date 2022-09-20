@@ -1,5 +1,13 @@
-$coloruno: rgb(55, 50, 144);
+$coloruno: rgb(43, 71, 154);
 $colordos: rgb(129, 45, 137);
+$colorletra: rgb(50, 255, 47);
+
+$ColoresFondo:(
+    fondo1: rgb(129, 45, 137),
+    fondo2: rgb(43, 71, 154),
+    fondo3: rgb(113, 60, 6),
+    fondo4: blue
+);
 
 .opciones{
     display: grid;
@@ -7,11 +15,11 @@ $colordos: rgb(129, 45, 137);
     grid-template-rows: 1fr 1fr 1fr;
     .opc{
         border-style: dotted;
-        background-color:$colordos;
+        background-color:$coloruno;
         padding: 0px;
         margin: 10px;
         border-style: outset;
-        border-color: black;
+        border-color: $colorletra;
         text-align: center;
         img{
             width: 300px;
@@ -19,27 +27,23 @@ $colordos: rgb(129, 45, 137);
     }
 }
 .nombre-de-pagina {
-    border-style: dotted;
-    border-color: $colordos;
     border-width: 10px;
     font-size: 50px;
-    background-color:$colordos ;
     img{
         height: 350px;
         width: auto;
     }
     div a{
-        color: black;
-        background-color: $coloruno;
+        color: $colorletra;
         text-decoration-line: none;
         border-style: none;
         border-style: outset;
-        border-color: black;
+        border-color: $colorletra;
         line-height: 75px;
         font-size: 30px;
         &:hover{
             transition: 1s;
-            background-color: $colordos;
+            background-color: $coloruno;
         }
     }
 }

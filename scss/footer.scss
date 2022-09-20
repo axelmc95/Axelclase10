@@ -1,44 +1,33 @@
-$coloruno: rgb(55, 50, 144);
+$coloruno: rgb(43, 71, 154);
 $colordos: rgb(129, 45, 137);
+$colorletra: rgb(50, 255, 47);
 $subtsize: 30px;
 
 .contacto{
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    flex-wrap: nowrap;
-        li a{
-        color: black;
-        background-color: $coloruno;
-        text-decoration-line: none;
-        border-style: none;
-        border-style: outset;
-        border-color: black;
+    @extend .secciones;
+    &:hover{
+        transform: translate(1px, 2px);
+        transition: 1s;
+    }
+    & a{
         line-height: 75px;
         font-size: 30px;
-        &:hover{
-            transition: 1s;
-            background-color: $colordos;
-        }
+        color: $colorletra;
+        text-decoration-line:none;
     }
 }
 
 .facebook:hover{
-    transform: translate(2px,3px);
-    transition: 1s;
+    @include seccion($coloruno);
 }
-
 .instagram:hover{
-    transform: translate(2px,3px);
-    transition: 1s;
+    @include seccion($coloruno);
 }
 .twitter:hover{
-    transform: translate(2px,3px);
-    transition: 1s;
+    @include seccion($coloruno);
 }
 .tiktok:hover{
-    transform: translate(2px,3px);
-    transition: 1s;
+    @include seccion($coloruno);
 }
 
 .subtitulo{

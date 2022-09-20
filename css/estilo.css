@@ -1,43 +1,81 @@
-.secciones {
+.secciones, .contacto {
   display: flex;
   justify-content: center;
   list-style: none;
   flex-wrap: nowrap; }
-  .secciones li a {
-    color: black;
-    background-color: #373290;
-    text-decoration-line: none;
-    border-style: none;
-    border-style: outset;
-    border-color: black;
-    line-height: 75px;
-    font-size: 30px; }
-    .secciones li a:hover {
-      transition: 1s;
-      background-color: #812d89; }
 
-.mouse:hover {
-  transform: translate(2px, 3px);
-  transition: 1s; }
+.mouse {
+  border-style: outset;
+  border-color: #32ff2f;
+  line-height: 75px;
+  font-size: 30px; }
+  .mouse:hover {
+    color: #2b479a;
+    transform: translate(1px, 2px);
+    transition: 1s;
+    background-color: #2b479a; }
+  .mouse a {
+    color: #32ff2f;
+    text-decoration-line: none; }
 
-.teclado:hover {
-  transform: translate(2px, 3px);
-  transition: 1s; }
+.teclado {
+  border-style: outset;
+  border-color: #32ff2f;
+  line-height: 75px;
+  font-size: 30px; }
+  .teclado:hover {
+    color: #2b479a;
+    transform: translate(1px, 2px);
+    transition: 1s;
+    background-color: #2b479a; }
+  .teclado a {
+    color: #32ff2f;
+    text-decoration-line: none; }
 
-.joystick:hover {
-  transform: translate(2px, 3px);
-  transition: 1s; }
+.joystick {
+  border-style: outset;
+  border-color: #32ff2f;
+  line-height: 75px;
+  font-size: 30px; }
+  .joystick:hover {
+    color: #2b479a;
+    transform: translate(1px, 2px);
+    transition: 1s;
+    background-color: #2b479a; }
+  .joystick a {
+    color: #32ff2f;
+    text-decoration-line: none; }
 
-.monitor:hover {
-  transform: translate(2px, 3px);
-  transition: 1s; }
+.monitor {
+  border-style: outset;
+  border-color: #32ff2f;
+  line-height: 75px;
+  font-size: 30px; }
+  .monitor:hover {
+    color: #2b479a;
+    transform: translate(1px, 2px);
+    transition: 1s;
+    background-color: #2b479a; }
+  .monitor a {
+    color: #32ff2f;
+    text-decoration-line: none; }
 
-.camaras:hover {
-  transform: translate(2px, 3px);
-  transition: 1s; }
+.camaras {
+  border-style: outset;
+  border-color: #32ff2f;
+  line-height: 75px;
+  font-size: 30px; }
+  .camaras:hover {
+    color: #2b479a;
+    transform: translate(1px, 2px);
+    transition: 1s;
+    background-color: #2b479a; }
+  .camaras a {
+    color: #32ff2f;
+    text-decoration-line: none; }
 
 @media only screen and (max-width: 768px) {
-  .secciones {
+  .secciones, .contacto {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr; } }
@@ -47,17 +85,16 @@
   padding: 0;
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: black; }
+  color: #32ff2f; }
 
 body {
-  background-image: linear-gradient(#832d89, #481692); }
+  background-color: #08085c; }
 
 .nombre-de-pagina {
-  border-style: dotted;
-  border-color: #812d89;
+  background-color: #08085c;
   border-width: 10px;
   font-size: 50px;
-  background-color: #812d89; }
+  border-radius: 10px; }
   .nombre-de-pagina img {
     height: 200px;
     width: auto; }
@@ -66,39 +103,71 @@ body {
   text-decoration: underline;
   font-size: 30px; }
 
-.contacto {
-  display: flex;
-  justify-content: center;
-  list-style: none;
-  flex-wrap: nowrap; }
-  .contacto li a {
-    color: black;
-    background-color: #373290;
-    text-decoration-line: none;
-    border-style: none;
-    border-style: outset;
-    border-color: black;
-    line-height: 75px;
-    font-size: 30px; }
-    .contacto li a:hover {
-      transition: 1s;
-      background-color: #812d89; }
+.contacto:hover {
+  transform: translate(1px, 2px);
+  transition: 1s; }
+
+.contacto a {
+  line-height: 75px;
+  font-size: 30px;
+  color: #32ff2f;
+  text-decoration-line: none; }
 
 .facebook:hover {
-  transform: translate(2px, 3px);
-  transition: 1s; }
+  border-style: outset;
+  border-color: #32ff2f;
+  line-height: 75px;
+  font-size: 30px; }
+  .facebook:hover:hover {
+    color: #2b479a;
+    transform: translate(1px, 2px);
+    transition: 1s;
+    background-color: #2b479a; }
+  .facebook:hover a {
+    color: #32ff2f;
+    text-decoration-line: none; }
 
 .instagram:hover {
-  transform: translate(2px, 3px);
-  transition: 1s; }
+  border-style: outset;
+  border-color: #32ff2f;
+  line-height: 75px;
+  font-size: 30px; }
+  .instagram:hover:hover {
+    color: #2b479a;
+    transform: translate(1px, 2px);
+    transition: 1s;
+    background-color: #2b479a; }
+  .instagram:hover a {
+    color: #32ff2f;
+    text-decoration-line: none; }
 
 .twitter:hover {
-  transform: translate(2px, 3px);
-  transition: 1s; }
+  border-style: outset;
+  border-color: #32ff2f;
+  line-height: 75px;
+  font-size: 30px; }
+  .twitter:hover:hover {
+    color: #2b479a;
+    transform: translate(1px, 2px);
+    transition: 1s;
+    background-color: #2b479a; }
+  .twitter:hover a {
+    color: #32ff2f;
+    text-decoration-line: none; }
 
 .tiktok:hover {
-  transform: translate(2px, 3px);
-  transition: 1s; }
+  border-style: outset;
+  border-color: #32ff2f;
+  line-height: 75px;
+  font-size: 30px; }
+  .tiktok:hover:hover {
+    color: #2b479a;
+    transform: translate(1px, 2px);
+    transition: 1s;
+    background-color: #2b479a; }
+  .tiktok:hover a {
+    color: #32ff2f;
+    text-decoration-line: none; }
 
 .subtitulo {
   font-size: 30px; }
@@ -116,36 +185,32 @@ body {
   grid-template-rows: 1fr 1fr 1fr; }
   .opciones .opc {
     border-style: dotted;
-    background-color: #812d89;
+    background-color: #2b479a;
     padding: 0px;
     margin: 10px;
     border-style: outset;
-    border-color: black;
+    border-color: #32ff2f;
     text-align: center; }
     .opciones .opc img {
       width: 300px; }
 
 .nombre-de-pagina {
-  border-style: dotted;
-  border-color: #812d89;
   border-width: 10px;
-  font-size: 50px;
-  background-color: #812d89; }
+  font-size: 50px; }
   .nombre-de-pagina img {
     height: 350px;
     width: auto; }
   .nombre-de-pagina div a {
-    color: black;
-    background-color: #373290;
+    color: #32ff2f;
     text-decoration-line: none;
     border-style: none;
     border-style: outset;
-    border-color: black;
+    border-color: #32ff2f;
     line-height: 75px;
     font-size: 30px; }
     .nombre-de-pagina div a:hover {
       transition: 1s;
-      background-color: #812d89; }
+      background-color: #2b479a; }
 
 .inicio:hover {
   transform: translate(2px, 3px);

@@ -1,51 +1,47 @@
-$coloruno: rgb(55, 50, 144);
+$coloruno: rgb(43, 71, 154);
 $colordos: rgb(129, 45, 137);
+$colorletra: rgb(50, 255, 47);
 
 .secciones{
     display: flex;
     justify-content: center;
     list-style: none;
     flex-wrap: nowrap;
-        li a{
-        color: black;
+}
+
+@mixin seccion($periferico) {
+    border-style: outset;
+    border-color: $colorletra;
+    line-height: 75px;
+    font-size: 30px;
+    &:hover{
+        color: $periferico;
+        transform: translate(1px, 2px);
+        transition: 1s;
         background-color: $coloruno;
-        text-decoration-line: none;
-        border-style: none;
-        border-style: outset;
-        border-color: black;
-        line-height: 75px;
-        font-size: 30px;
-        &:hover{
-            transition: 1s;
-            background-color: $colordos;
-        }
-    }    
+    }
+    & a{
+        color: $colorletra;
+        text-decoration-line:none;
+    }
 }
 
-.mouse:hover{
-    transform: translate(2px,3px);
-    transition: 1s;
+.mouse{
+    @include seccion($coloruno);
+}
+.teclado{
+    @include seccion($coloruno);
+}
+.joystick{
+    @include seccion($coloruno);
+}
+.monitor{
+    @include seccion($coloruno);
+}
+.camaras{
+    @include seccion($coloruno);
 }
 
-.teclado:hover{
-    transform: translate(2px,3px);
-    transition: 1s;
-}
-
-.joystick:hover{
-    transform: translate(2px,3px);
-    transition: 1s;
-}
-
-.monitor:hover{
-    transform: translate(2px,3px);
-    transition: 1s;
-}
-
-.camaras:hover{
-    transform: translate(2px,3px);
-    transition: 1s;
-}
 
 
 @media only screen and(max-width: 768px){
