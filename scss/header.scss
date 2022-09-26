@@ -1,18 +1,22 @@
 $coloruno: rgb(43, 71, 154);
 $colordos: rgb(129, 45, 137);
-$colorletra: rgb(50, 255, 47);
+$colorcinco: rgb(51, 249, 1);
+$colortres: rgb(28, 43, 105);
+$colorcuatro: rgb(0, 0, 0);
 $subtsize: 30px;
 
 $ColoresFondo:(
     fondo1: rgb(129, 45, 137),
     fondo2: rgb(55, 50, 144),
-    fondo3: rgb(43, 71, 154),
+    fondo3: rgb(28, 43, 105),
     fondo4: rgb(8, 8, 92),
 );
 
 .nombre-de-pagina {
-    background-color: map-get($ColoresFondo, fondo4);
-    border-width: 10px;
+    background-color: map-get($ColoresFondo, fondo3);
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
     font-size: 50px;
     border-radius:10px;
     img{

@@ -1,6 +1,7 @@
 $coloruno: rgb(43, 71, 154);
 $colordos: rgb(129, 45, 137);
-$colorletra: rgb(50, 255, 47);
+$colorletra: rgb(0, 0, 0);
+$colorcinco: rgb(51, 249, 1);
 
 $ColoresFondo:(
     fondo1: rgb(129, 45, 137),
@@ -23,6 +24,10 @@ $ColoresFondo:(
         text-align: center;
         img{
             width: 300px;
+        }
+        &:hover{
+            background-color: $colorcinco;
+            transition: 1s;
         }
     }
 }
@@ -53,6 +58,12 @@ $ColoresFondo:(
     transition: 1s;
 }
 
+.soloteclado{
+    width: 600px;
+    position:relative;
+    left: 30%;
+}
+
 @media only screen and(max-width: 768px){
     .opciones{
         background-color: none;
@@ -60,5 +71,10 @@ $ColoresFondo:(
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+    .soloteclado{
+        width: 400px;
+        position: relative;
+        left: 20px;
     }
 }

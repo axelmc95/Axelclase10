@@ -1,6 +1,7 @@
 $coloruno: rgb(43, 71, 154);
 $colordos: rgb(129, 45, 137);
-$colorletra: rgb(50, 255, 47);
+$colorletra: rgb(0, 0, 0);
+$colorcinco: rgb(51, 249, 1);
 
 .secciones{
     display: flex;
@@ -18,7 +19,7 @@ $colorletra: rgb(50, 255, 47);
         color: $periferico;
         transform: translate(1px, 2px);
         transition: 1s;
-        background-color: $coloruno;
+        background-color: $colorcinco;
     }
     & a{
         color: $colorletra;

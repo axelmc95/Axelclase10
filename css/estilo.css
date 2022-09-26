@@ -6,72 +6,72 @@
 
 .mouse {
   border-style: outset;
-  border-color: #32ff2f;
+  border-color: black;
   line-height: 75px;
   font-size: 30px; }
   .mouse:hover {
     color: #2b479a;
     transform: translate(1px, 2px);
     transition: 1s;
-    background-color: #2b479a; }
+    background-color: #33f901; }
   .mouse a {
-    color: #32ff2f;
+    color: black;
     text-decoration-line: none; }
 
 .teclado {
   border-style: outset;
-  border-color: #32ff2f;
+  border-color: black;
   line-height: 75px;
   font-size: 30px; }
   .teclado:hover {
     color: #2b479a;
     transform: translate(1px, 2px);
     transition: 1s;
-    background-color: #2b479a; }
+    background-color: #33f901; }
   .teclado a {
-    color: #32ff2f;
+    color: black;
     text-decoration-line: none; }
 
 .joystick {
   border-style: outset;
-  border-color: #32ff2f;
+  border-color: black;
   line-height: 75px;
   font-size: 30px; }
   .joystick:hover {
     color: #2b479a;
     transform: translate(1px, 2px);
     transition: 1s;
-    background-color: #2b479a; }
+    background-color: #33f901; }
   .joystick a {
-    color: #32ff2f;
+    color: black;
     text-decoration-line: none; }
 
 .monitor {
   border-style: outset;
-  border-color: #32ff2f;
+  border-color: black;
   line-height: 75px;
   font-size: 30px; }
   .monitor:hover {
     color: #2b479a;
     transform: translate(1px, 2px);
     transition: 1s;
-    background-color: #2b479a; }
+    background-color: #33f901; }
   .monitor a {
-    color: #32ff2f;
+    color: black;
     text-decoration-line: none; }
 
 .camaras {
   border-style: outset;
-  border-color: #32ff2f;
+  border-color: black;
   line-height: 75px;
   font-size: 30px; }
   .camaras:hover {
     color: #2b479a;
     transform: translate(1px, 2px);
     transition: 1s;
-    background-color: #2b479a; }
+    background-color: #33f901; }
   .camaras a {
-    color: #32ff2f;
+    color: black;
     text-decoration-line: none; }
 
 @media only screen and (max-width: 768px) {
@@ -85,14 +85,28 @@
   padding: 0;
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: #32ff2f; }
+  color: black; }
 
 body {
-  background-color: #08085c; }
+  background-color: #2b479a; }
+
+.desarrollo {
+  width: 400px;
+  display: inline-flex; }
+
+.desarrollo2 {
+  width: 400px;
+  display: inline-flex; }
+
+div p {
+  display: inline-block;
+  width: 500px; }
 
 .nombre-de-pagina {
-  background-color: #08085c;
-  border-width: 10px;
+  background-color: #1c2b69;
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;
   font-size: 50px;
   border-radius: 10px; }
   .nombre-de-pagina img {
@@ -104,73 +118,80 @@ body {
   font-size: 30px; }
 
 .contacto:hover {
-  transform: translate(1px, 2px);
+  transform: translate(1px, 1px);
   transition: 1s; }
 
 .contacto a {
   line-height: 75px;
   font-size: 30px;
-  color: #32ff2f;
+  color: black;
   text-decoration-line: none; }
 
 .facebook:hover {
   border-style: outset;
-  border-color: #32ff2f;
+  border-color: black;
   line-height: 75px;
   font-size: 30px; }
   .facebook:hover:hover {
     color: #2b479a;
     transform: translate(1px, 2px);
     transition: 1s;
-    background-color: #2b479a; }
+    background-color: #33f901; }
   .facebook:hover a {
-    color: #32ff2f;
+    color: black;
     text-decoration-line: none; }
 
 .instagram:hover {
   border-style: outset;
-  border-color: #32ff2f;
+  border-color: black;
   line-height: 75px;
   font-size: 30px; }
   .instagram:hover:hover {
     color: #2b479a;
     transform: translate(1px, 2px);
     transition: 1s;
-    background-color: #2b479a; }
+    background-color: #33f901; }
   .instagram:hover a {
-    color: #32ff2f;
+    color: black;
     text-decoration-line: none; }
 
 .twitter:hover {
   border-style: outset;
-  border-color: #32ff2f;
+  border-color: black;
   line-height: 75px;
   font-size: 30px; }
   .twitter:hover:hover {
     color: #2b479a;
     transform: translate(1px, 2px);
     transition: 1s;
-    background-color: #2b479a; }
+    background-color: #33f901; }
   .twitter:hover a {
-    color: #32ff2f;
+    color: black;
     text-decoration-line: none; }
 
 .tiktok:hover {
   border-style: outset;
-  border-color: #32ff2f;
+  border-color: black;
   line-height: 75px;
   font-size: 30px; }
   .tiktok:hover:hover {
     color: #2b479a;
     transform: translate(1px, 2px);
     transition: 1s;
-    background-color: #2b479a; }
+    background-color: #33f901; }
   .tiktok:hover a {
-    color: #32ff2f;
+    color: black;
     text-decoration-line: none; }
 
 .subtitulo {
   font-size: 30px; }
+
+footer {
+  margin: 20px;
+  padding: 20px;
+  background-color: #1c2b69;
+  border-style: solid;
+  border-color: black; }
 
 @media only screen and (max-width: 768px) {
   .contacto {
@@ -189,10 +210,13 @@ body {
     padding: 0px;
     margin: 10px;
     border-style: outset;
-    border-color: #32ff2f;
+    border-color: black;
     text-align: center; }
     .opciones .opc img {
       width: 300px; }
+    .opciones .opc:hover {
+      background-color: #33f901;
+      transition: 1s; }
 
 .nombre-de-pagina {
   border-width: 10px;
@@ -201,11 +225,11 @@ body {
     height: 350px;
     width: auto; }
   .nombre-de-pagina div a {
-    color: #32ff2f;
+    color: black;
     text-decoration-line: none;
     border-style: none;
     border-style: outset;
-    border-color: #32ff2f;
+    border-color: black;
     line-height: 75px;
     font-size: 30px; }
     .nombre-de-pagina div a:hover {
@@ -216,10 +240,19 @@ body {
   transform: translate(2px, 3px);
   transition: 1s; }
 
+.soloteclado {
+  width: 600px;
+  position: relative;
+  left: 30%; }
+
 @media only screen and (max-width: 768px) {
   .opciones {
     background-color: none;
     border-style: none;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr; } }
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr; }
+  .soloteclado {
+    width: 400px;
+    position: relative;
+    left: 20px; } }

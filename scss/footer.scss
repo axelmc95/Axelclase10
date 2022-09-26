@@ -1,12 +1,13 @@
 $coloruno: rgb(43, 71, 154);
 $colordos: rgb(129, 45, 137);
-$colorletra: rgb(50, 255, 47);
+$colorletra: rgb(0, 0, 0);
+$colortres: rgb(28, 43, 105);
 $subtsize: 30px;
 
 .contacto{
     @extend .secciones;
     &:hover{
-        transform: translate(1px, 2px);
+        transform: translate(1px, 1px);
         transition: 1s;
     }
     & a{
@@ -34,6 +35,13 @@ $subtsize: 30px;
     font-size: $subtsize;
 }
 
+footer{
+    margin: 20px;
+    padding: 20px;
+    background-color: $colortres;
+    border-style:solid;
+    border-color: $colorcuatro;
+}
 @media only screen and(max-width: 768px){
     .contacto{
         border-style: none;

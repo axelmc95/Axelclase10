@@ -1,11 +1,12 @@
 $colorpag: linear-gradient(rgb(131, 45, 137), rgb(72, 22, 146));
-$colorletra: rgb(50, 255, 47);
+$colorletra: rgb(0, 0, 0);
 
 $ColoresFondo:(
     fondo1: rgb(129, 45, 137),
     fondo2: rgb(55, 50, 144),
     fondo3: rgb(43, 71, 154),
     fondo4: rgb(8, 8, 92),
+    fondo5: rgb(28, 43, 105),
 );
 
 *{
@@ -17,5 +18,20 @@ $ColoresFondo:(
 }
 
 body{
-    background-color: map-get($ColoresFondo, fondo4);
+    background-color: rgb(43, 71, 154);
+}
+
+.desarrollo{
+    width: 400px;
+    display: inline-flex;
+}
+
+.desarrollo2{
+    width: 400px;
+    display: inline-flex;
+}
+
+div p{
+    display: inline-block;
+    width: 500px;
 }
